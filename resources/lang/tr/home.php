@@ -1,0 +1,116 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
+    |
+    */
+
+    'anasayfa'          => 'Anasayfa',
+    'hosgeldin'         => 'Hoşgeldiniz..',
+    'arama'             => 'İçerik Arama Alanı',
+    'randevual'         => 'Randevu Al',
+    'acilservis'        => '7/24 Acil Servis',
+    'acilservisnotu'    => 'Hastanemiz tarafından verilen sağlık hizmetlerinden yararlanmak için bize 7/24 ulaşabilirsiniz.',
+    'bizeulasin'        => 'Bize Ulaşın',
+    'iletisim'          => 'İletişim',
+    'esonuc'            => 'e-Sonuç',
+    'sor'               => 'Doktora Sor',
+    'egecmisolsun'      => 'e-Muayene',
+    'onlinerandevu'     => 'Randevu Al',
+    'tetkikgoruntu'     => 'Tetkik Görüntü',
+    'drtetkik'          => 'Dr. Tetkik Görüntü',
+    'tibbibirimler'     => 'Tıbbi Birimler',
+    'hastarehberi'      => 'Hastalık Rehberi',
+    'kurumsal'          => 'Kurumsal',
+    'onlineislem'       => 'Online İşlemler',
+    'doktorlar'         => 'Doktorlarımız',
+    'profilincele'      => 'Profili',
+    'profil'            => 'Profili İncele',
+    'cagrimerkezi'      => '<strong>Çağrı Merkezi</strong>',
+    'sosyalhesaplar'    => 'Sosyal Medya',
+    'katalog'           => 'Katalog İncele',
+    'doktorlarnot'      => 'Alanında uzman doktorlarımız hakkında bilgi sahibi olmak için aşağıdaki listeden doktor profillerini inceleyebilirsiniz',
+    'whatsapp'          => '<strong>Whatsapp Hattı :</strong>',
+    'tibbidanisma'      => 'Tıbbi Danışma',
+    'duyurular'         => 'Duyurular',
+    'haberler'          => 'Haberler',
+    'saglikkosesi'      => 'Bower Blog',
+    'detaylibilgi'      => 'Detaylı Bilgi',
+    // Doktor Sayfası
+    'uzmanlik'          => 'Uzmanlık Alanı',
+    'ozgecmis'          => 'Özgeçmişi',
+    'derece'            => 'Ödül ve Dereceler',
+    'ilgialanlari'      => 'İlgi Alanları',
+    'kurslar'           => 'Kurslar ve Konferanslar',
+    'meslekiuyelik'     => 'Mesleki Üyelikler',
+    'egitim'            => 'Eğitim',
+    'bilimselyayin'     => 'Bilimsem Yayınlar',
+    'yaptigigorevler'   => 'Yaptığı Görevler',
+    'devami'            => 'Devamı',
+    // İçerikler
+    'digericerikler'    => 'Diğer İçerikler',
+    'kategoriler'       => 'Kategoriler',
+    // İletişim
+    'iletisimbilgi'     => 'İletişim Bilgilerimiz',
+    'iletisimformu'     => 'İletişim Formu',
+    'telefon'           => 'Telefon Numarası',
+    'adi'               => 'Adı Soyadı',
+    'email'             => 'Email Adresi',
+    'teknik'            => 'Teknik Sorun',
+    'talep'             => 'Talep ve Öneri',
+    'fiyatsor'          => 'Fiyat Sor',
+    'tesekkur'          => 'Teşekkür',
+    'sikayet'           => 'Şikayet',
+    'konu'              => 'Konu Seç',
+    'mesaj'             => 'Mesaj Alanı',
+    'gonder'            => 'Mesaj Gönder',
+    'sozlesme'          => '<strong>Kişisel Verilerin Korunması Kanunu</strong> uyarınca ilgili <strong>Bilgilendirme</strong>’yi okudum. Kişisel verilerimin belirtilen kapsamda işlenmesini ve sağlık hizmet sunumu amacıyla tarafımla iletişime geçilmesini <strong>kabul ediyorum</strong>.',
+    'uyari'             => '<div style="width:100%; height:60px;padding:15px;" class="alert alert-danger">
+    <strong>ÜZGÜNÜM!</strong> Kayıtlı bilgi bulunmamaktadır.</div>',
+    // İnsan Kaynakları
+    'ik'                => 'İnsan Kaynakları',
+    'kisisel'           => 'Kişisel Bilgiler',
+    'iletisimb'         => 'İletişim Bilgileri',
+    'ikadi'             => 'Adı',
+    'iksoyadi'          => 'Soyadı',
+    'adres'             => 'Adres',
+    'postakodu'         => 'Posta Kodu',
+    'sehir'             => 'Şehir',
+    'gun'               => 'Gün',
+    'ay'                => 'Ay',
+    'yil'               => 'Yıl',
+    'dyeri'             => 'Doğum Yeri',
+    'ehliyet'           => 'Ehliyet',
+    'cinsiyet'          => 'Cinsiyet',
+    'askerlik'          => 'Askerlik',
+    'medenidurum'       => 'Medeni Durumu',
+    'linkedin'          => 'LinkedIn Hesabı',
+    'website'           => 'Web Sitesi',
+    'profili'           => 'Profili',
+    'basarilar'         => 'Başarıları',
+    'yayinlar'          => 'Yayınlar',
+    'ozelbolum'         => 'Özel Bölüm',
+    'kayitolustur'      => 'Kayıt Oluştur',
+    // Footer
+    'hakkimizda'        => 'Hakkımızda',
+    'misyon'            => 'Vizyon Misyon',
+    'sponsor'           => 'Sponsorluklar',
+    'anlasmalikurum'    => 'Anlaşmalı Kurumlar',
+    'kvkk'              => 'KVKK Metni',
+    'erandevu'          => 'e-Randevu',
+    'esonuc'            => 'e-Sonuç',
+    'tetkikgoruntu'     => 'Tetkik Görüntüleme',
+    'drtetkik'          => 'Dr. Tetkik Görüntüleme',
+    'isbasvuru'         => 'İnsan Kaynakları',
+    'sizidinliyoruz'    => 'Sizi Dinliyoruz',
+    'menu'              => 'Menü',
+    'copyrigth'         => 'Web sitemizde bulunan tüm görsellerin, işitsel veya içerik bilgilerinin izinsiz kullanılması yasaktır. Durumun tespit edilmesi halinde hukuki yollara başvurulacaktır.',
+];
